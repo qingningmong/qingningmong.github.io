@@ -3,7 +3,7 @@ const timer = document.getElementById("timer"); // 倒计时显示的元素
 const message = document.getElementById("message"); // 倒计时结束后显示的元素
 
 // 设置目标时间
-const targetDate = new Date("2024/01/01 00:00:00"); // 北京时间2024年元旦
+const targetDate = new Date("2025/01/01 00:00:00"); // 北京时间2024年元旦
 
 // 定义一个函数，用来更新倒计时
 function updateCountdown() {
@@ -33,7 +33,7 @@ function updateCountdown() {
   // 更新倒计时元素的内容
   timer.innerHTML = `
   <p><font color=#E80017>距</font><font color=#D1002E>离</font><font color=#BA0045>2</font><font color=#A3005C>0</font><font
-            color=#8C0073>2</font><font color=#75008A></font><font color=#5E00A1>4</font><font
+            color=#8C0073>2</font><font color=#75008A></font><font color=#5E00A1>5</font><font
             color=#4700B8></font><font color=#3000CF>年</font><font color=#1900E6>还</font><font color=#0200FD>有</font> <br>
     ${format(days)}天
     ${format(hours)}时
